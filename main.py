@@ -76,6 +76,9 @@ def redrawWindow():
     screen.blit(bg, (bgX, 0))  # draws our first bg image
     screen.blit(bg, (bgX2, 0))  # draws the seconf bg image
     runner.draw(screen)
+
+    #
+
     pygame.display.update()  # updates the screen
 
 while True:
